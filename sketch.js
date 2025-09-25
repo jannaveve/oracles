@@ -95,9 +95,9 @@ function draw() {
     let countdown = `Next generation in: ${nf(hours, 2)}h ${nf(minutes, 2)}m ${nf(seconds, 2)}s`;
     
     // Display the countdown at the top
-    textSize(24);
+    textSize(32);
     textAlign(CENTER);
-    text(countdown, width / 2, 30);
+    text(countdown, width / 2, 100);
     
     // Reset text alignment and size for the main text
     textSize(36);
