@@ -97,7 +97,7 @@ function draw() {
     // Display the countdown at the top
     textSize(32);
     textAlign(CENTER);
-    text(countdown, width / 2, 5%);
+    text(countdown, width / 2, 50);
     
     // Reset text alignment and size for the main text
     textSize(36);
@@ -106,7 +106,8 @@ function draw() {
     // --- End of Countdown Clock Logic ---
 
     // Display the main text
-    text(lines.join(' '), x+ 30%, height/2, width - x * 2 - 20%, height - y * 2 );
+    
+    text(lines.join(' '), x + 25, height/2, width - x * 2 - 50, height - y * 2);
 
     // Get the current hour and minute for generation logic
     let h24 = hour(); // 24-hour format (0-23)
